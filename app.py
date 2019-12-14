@@ -6,6 +6,7 @@ from secret_server import generate_player_roles
 app = Flask(__name__)
 app.static_folder = 'static'
 
+# The main game route will be on index
 @app.route('/', methods=['POST','GET'])
 def index():
     if request.method == 'POST':
