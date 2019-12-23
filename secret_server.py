@@ -8,7 +8,7 @@ def generate_player_roles(request):
             # Find out the names of the players
             player_names = request['playerNames'].split(" ")
             # Create a list with an option for each player except the spy
-            choice = [random.choice(options)] * (num_players - 1)
+            choice = [random.choice(options[request['secretSelect']])] * (num_players - 1)
             # Add the spy to the list
             choice.append("Spy")
             # Shuffle the list of choices

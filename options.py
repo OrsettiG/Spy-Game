@@ -1,1 +1,1 @@
-options = ["Quebec", "Japan", "Vancouver", "Egypt (the capital of... Egypt)"]
+options = {"Places": ["Quebec", "Japan", "Vancouver", "Egypt (the capital of... Egypt)", "Victoria", "A Submarine", "The North Pole", "A Black Hole"], "Jobs": ["Janitor", "Concierge", "Toy Maker", "Hair Dresser", "Actor/Actress", "Golfer", "Mechanic"], "Things": ["Mountain", "Box", "Cliff", "Blow Dryer", "Axe", "Banana", "Water Bottle"], "Animals": ["Monkey", "Turtle", "Goose", "Moose", "Shark", "Tiger", "Velociraptor"]}
